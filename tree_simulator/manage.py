@@ -4,7 +4,7 @@ import os
 import sys
 
 
-def main():
+def main(): #run the settings for tree simulator
     """Run administrative tasks."""
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tree_simulator.settings")
     try:
